@@ -40,4 +40,4 @@ It shows real-time weather details and location map using API integration.
 3. Replace in `script.js`:
 
 ```js
-const apiKey = "YOUR_API_KEY";
+const apiKey = "aa5a89fb4cc3f2b5cb94ea3bfcbfb91a";
