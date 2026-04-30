@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="weathericon.png">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+  <h1 class="title">🌦️ Weather App</h1>
+
+  <div class="search-box">
+    <input type="text" id="city" placeholder="Enter city">
+    <button onclick="getWeather()">Search</button>
+    <button onclick="startVoice()">🎤</button>
+  </div>
+
+  <div id="result" class="result"></div>
+  <div id="map"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
